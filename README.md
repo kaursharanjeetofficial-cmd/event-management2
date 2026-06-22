@@ -111,5 +111,5 @@ db.json            # JSON Server data
 
 The app uses a mock authenticated user:
 - **ID:** user1
-- **Name:** John Doe
-- **Email:** john@example.com
+- **Name:** Sharan
+- **Email:** sharan@example.com
