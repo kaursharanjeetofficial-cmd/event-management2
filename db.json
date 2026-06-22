@@ -1,0 +1,188 @@
+{
+  "events": [
+    {
+      "id": "1",
+      "title": "React Summit 2024",
+      "description": "Annual React conference featuring talks from core team members, workshops on modern patterns, and networking with developers worldwide.",
+      "category": "Technology",
+      "date": "2026-07-15",
+      "time": "09:00 AM",
+      "location": "San Francisco, CA",
+      "image": "https://picsum.photos/seed/react/400/200",
+      "organizerName": "Tech Events Inc",
+      "ticketTypes": [
+        { "id": "1", "name": "General", "price": 99, "available": 100 },
+        { "id": "2", "name": "VIP", "price": 299, "available": 20 }
+      ],
+      "likes": 45,
+      "featured": true
+    },
+    {
+      "id": "2",
+      "title": "Summer Music Night",
+      "description": "A live music event featuring local artists, food vendors, and an outdoor stage under the stars.",
+      "category": "Music",
+      "date": "2026-06-05",
+      "time": "07:00 PM",
+      "location": "Austin, TX",
+      "image": "https://picsum.photos/seed/music/400/200",
+      "organizerName": "Music Club",
+      "ticketTypes": [
+        { "id": "1", "name": "Regular", "price": 40, "available": 80 },
+        { "id": "2", "name": "Premium", "price": 75, "available": 30 }
+      ],
+      "likes": 32,
+      "featured": false
+    },
+    {
+      "id": "3",
+      "title": "Community Art Expo",
+      "description": "Explore paintings, digital art, handmade crafts, and student artwork from emerging creators.",
+      "category": "Arts",
+      "date": "2026-06-20",
+      "time": "11:00 AM",
+      "location": "Portland, OR",
+      "image": "https://picsum.photos/seed/art/400/200",
+      "organizerName": "Creative Arts Group",
+      "ticketTypes": [
+        { "id": "1", "name": "Entry", "price": 0, "available": 150 }
+      ],
+      "likes": 18,
+      "featured": true
+    },
+    {
+      "id": "4",
+      "title": "Football Championship",
+      "description": "Exciting local football championship final match with pre-game festivities and halftime show.",
+      "category": "Sports",
+      "date": "2026-09-10",
+      "time": "05:00 PM",
+      "location": "Chicago, IL",
+      "image": "https://picsum.photos/seed/sports/400/200",
+      "organizerName": "Sports USA",
+      "ticketTypes": [
+        { "id": "1", "name": "Standard", "price": 55, "available": 120 },
+        { "id": "2", "name": "Front Row", "price": 120, "available": 25 }
+      ],
+      "likes": 67,
+      "featured": false
+    },
+    {
+      "id": "5",
+      "title": "Food & Wine Festival",
+      "description": "Taste dishes from top chefs, sample wines from local vineyards, and enjoy live cooking demos.",
+      "category": "Food",
+      "date": "2026-08-22",
+      "time": "12:00 PM",
+      "location": "Napa Valley, CA",
+      "image": "https://picsum.photos/seed/food/400/200",
+      "organizerName": "Culinary Events Co",
+      "ticketTypes": [
+        { "id": "1", "name": "Tasting Pass", "price": 85, "available": 60 },
+        { "id": "2", "name": "VIP Chef Table", "price": 250, "available": 10 }
+      ],
+      "likes": 41,
+      "featured": true
+    },
+    {
+      "id": "6",
+      "title": "Startup Pitch Night",
+      "description": "Watch emerging startups pitch to investors and network with founders and VCs.",
+      "category": "Technology",
+      "date": "2026-05-10",
+      "time": "06:00 PM",
+      "location": "New York, NY",
+      "image": "https://picsum.photos/seed/startup/400/200",
+      "organizerName": "Venture Hub",
+      "ticketTypes": [
+        { "id": "1", "name": "General", "price": 25, "available": 200 }
+      ],
+      "likes": 22,
+      "featured": false
+    }
+  ],
+  "bookings": [
+    {
+      "id": "1",
+      "userId": "user1",
+      "eventId": "1",
+      "eventTitle": "React Summit 2024",
+      "eventDate": "2026-07-15",
+      "tickets": [{ "type": "General", "quantity": 2, "price": 99 }],
+      "attendees": [
+        { "name": "John Doe", "email": "john@example.com", "phone": "1234567890" }
+      ],
+      "totalAmount": 198,
+      "status": "confirmed",
+      "bookingDate": "2026-02-01T10:30:00Z",
+      "referenceNumber": "BK123456"
+    },
+    {
+      "id": "2",
+      "userId": "user1",
+      "eventId": "6",
+      "eventTitle": "Startup Pitch Night",
+      "eventDate": "2026-05-10",
+      "tickets": [{ "type": "General", "quantity": 1, "price": 25 }],
+      "attendees": [
+        { "name": "John Doe", "email": "john@example.com", "phone": "1234567890" }
+      ],
+      "totalAmount": 25,
+      "status": "cancelled",
+      "bookingDate": "2026-01-15T14:00:00Z",
+      "referenceNumber": "BK789012"
+    },
+    {
+      "id": "3",
+      "userId": "user1",
+      "eventId": "2",
+      "eventTitle": "Summer Music Night",
+      "eventDate": "2026-06-05",
+      "tickets": [{ "type": "Regular", "quantity": 1, "price": 40 }],
+      "attendees": [
+        { "name": "John Doe", "email": "john@example.com", "phone": "1234567890" }
+      ],
+      "totalAmount": 40,
+      "status": "confirmed",
+      "bookingDate": "2026-03-10T09:00:00Z",
+      "referenceNumber": "BK345678"
+    }
+  ],
+  "users": [
+    {
+      "id": "user1",
+      "name": "John Doe",
+      "email": "john@example.com",
+      "preferences": { "theme": "dark", "notifications": true },
+      "favoriteEvents": ["1", "3"]
+    }
+  ],
+  "reviews": [
+    {
+      "id": "1",
+      "eventId": "1",
+      "author": "Sarah M.",
+      "rating": 5,
+      "comment": "Amazing conference! Great speakers and workshops."
+    },
+    {
+      "id": "2",
+      "eventId": "1",
+      "author": "Mike T.",
+      "rating": 4,
+      "comment": "Well organized, would attend again next year."
+    },
+    {
+      "id": "3",
+      "eventId": "2",
+      "author": "Lisa K.",
+      "rating": 5,
+      "comment": "Best music night of the summer!"
+    }
+  ],
+  "recommendations": [
+    { "id": "1", "eventId": "1", "recommendedEventId": "6", "reason": "Also interested in tech startups" },
+    { "id": "2", "eventId": "1", "recommendedEventId": "3", "reason": "Creative community events" },
+    { "id": "3", "eventId": "2", "recommendedEventId": "5", "reason": "Food lovers also enjoy music festivals" }
+  ]
+}
